@@ -1,0 +1,84 @@
+.con1 {
+  height: calc(100vh - 120px);
+  background-color: rgb(116, 116, 116);
+  user-select: none;
+}
+
+.date {
+  float: left;
+  width: 100%;
+  height: 25px;
+  padding: 5px;
+}
+
+.left {
+  height: calc(100% - 5px);
+  width: 50%;
+  float: left;
+  overflow: auto;
+}
+.left::-webkit-scrollbar {
+  display: none;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+
+.notActive {
+  padding: 5px;
+  width: 150px;
+  height: 80px;
+}
+
+.timeLineCon {
+  height: 80%;
+  width: 40%;
+  float: left;
+  overflow: auto;
+  padding-left: 20px;
+}
+
+.timeLineBlock {
+  /* width: 120px; ovo vrati */
+  width: 220px;
+  height: 80px;
+  border: 5px solid transparent;
+  border-radius: 26px;
+}
+
+.datePart {
+  vertical-align: middle;
+  line-height: 5;
+  width: 40%;
+  height: 80px;
+  pointer-events: none;
+  float: left;
+  text-align: center;
+}
+
+.colorPart {
+  width: 60%;
+  height: 70px;
+  padding: 5px 0px 5px 0;
+  pointer-events: none;
+  float: left;
+  border-radius: 20px;
+}
+
+.timeLineDate {
+  width: 100%;
+  padding: 15px 0px 10px 15px;
+  font-size: 20px;
+}
+
+/* -------------------------------------------------------------- */
+
+.activiti {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 5px;
+}
